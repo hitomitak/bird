@@ -1,4 +1,5 @@
 FROM ppc64le/ubuntu:16.04
 RUN apt-get update -y
 RUN apt-get install -y autoconf flex bison gcc  build-essential libc6-dev
+RUN apt-get install -y ibncurses5-dev libreadline-dev
 WORKDIR /code
