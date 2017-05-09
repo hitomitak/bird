@@ -1,0 +1,2 @@
+If you want to create bird binary, please do not use docker.
+Just run ./create_binaries_ppc64le.sh  
